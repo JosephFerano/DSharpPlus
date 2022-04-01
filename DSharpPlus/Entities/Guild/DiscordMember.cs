@@ -305,6 +305,7 @@ namespace DSharpPlus.Entities
         /// <summary>
         /// Gets the user's flags.
         /// </summary>
+        [JsonIgnore]
         public override UserFlags? OAuthFlags
         {
             get => this.User.OAuthFlags;
